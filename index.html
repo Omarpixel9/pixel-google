@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', 'Open Sans';
+        }
+
+        #search {
+
+          text-align: center;
+          position: relative;
+          top: 0;
+          left: 0;
+          margin: 193px 0 0 0;
+        }
+
+        #logo {
+            height: 92px;
+
+        }
+
+        #search #searchBar {
+          width: 580px;
+          height: 18px;
+          font-size: 18px;
+          padding: 9px;
+          border: 1px solid #dfdfdf;
+          margin: 20px 0 0 0;
+          font-family: 'Roboto';
+          font-weight: normal;
+        }
+
+        #search #searchBar:hover {
+          border: 1px solid #b3b3b3;
+        }
+
+        #search #searchBar:focus {
+          border: 1px solid #3d77a7;
+        }
+
+        #search .butt {
+          width: auto;
+          height: auto;
+          font-size: 14px;
+          padding: 10px 13px 10px 13px;
+          background: #F2F2F2;
+          border: 2px solid #F2F2F2;
+          margin: 0 5px 0 0px;
+          font-family: Open Sans;
+          font-weight: 600;
+          color: grey;
+          border-radius: 2px;
+          text-align: center;
+          transition: 0.1s;
+        }
+
+        #search .butt:hover {
+          color: black;
+          border: 2px solid #c4c4c4;
+          transition: 0.1s;
+        }
+
+
+    </style>
+</head>
+
+<body>
+  <nav>
+    <ul>
+
+    </ul>
+  </nav>
+    <div id="search">
+        <img src="logo.svg" id="logo" />
+        <form>
+          <input type="text" name="searchBar" id="searchBar" autofocus="autofocus"  /><br/>
+
+        </br/>
+          <input type="button" url="https://www.google.com/doodles" name="GoogleSearch" id="googleSearch" class="butt" value="Google Search" />
+          <input type="button" name="feelinLucky" id="feelinLucky" class="butt" value="I'm Feelin' Lucky" />
+        </form>
+    </div>
+</body>
+
+</html>
